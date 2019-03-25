@@ -1,0 +1,54 @@
+[debug] [2019-03-17T12:08:01.603Z] ----------------------------------------------------------------------
+[debug] [2019-03-17T12:08:01.608Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-03-17T12:08:01.608Z] CLI Version:   6.4.0
+[debug] [2019-03-17T12:08:01.608Z] Platform:      win32
+[debug] [2019-03-17T12:08:01.608Z] Node Version:  v10.15.3
+[debug] [2019-03-17T12:08:01.610Z] Time:          Sun Mar 17 2019 17:38:01 GMT+0530 (India Standard Time)
+[debug] [2019-03-17T12:08:01.611Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-17T12:08:01.642Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-17T12:08:01.644Z] > authorizing via signed-in user
+[debug] [2019-03-17T12:08:01.644Z] [iam] checking project firebasics-c8b4b for permissions ["firebase.projects.get"]
+[debug] [2019-03-17T12:08:01.651Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firebasics-c8b4b:testIamPermissions  
+
+[debug] [2019-03-17T12:08:05.159Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-17T12:08:05.165Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firebasics-c8b4b  
+ 
+[debug] [2019-03-17T12:08:06.643Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\FirebaseHandsOn\HandsOn_One'...
+[info] 
+[debug] [2019-03-17T12:08:06.810Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/156889151193/clients/_:getWebAppConfig  
+ 
+[debug] [2019-03-17T12:08:08.266Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: Handson
+[info] +  hosting: Local server: http://localhost:5000
+[debug] [2019-03-17T13:29:13.950Z] ----------------------------------------------------------------------
+[debug] [2019-03-17T13:29:13.969Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-03-17T13:29:13.970Z] CLI Version:   6.4.0
+[debug] [2019-03-17T13:29:13.970Z] Platform:      win32
+[debug] [2019-03-17T13:29:13.970Z] Node Version:  v10.15.3
+[debug] [2019-03-17T13:29:14.134Z] Time:          Sun Mar 17 2019 18:59:13 GMT+0530 (India Standard Time)
+[debug] [2019-03-17T13:29:14.134Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-17T13:29:14.204Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-17T13:29:14.205Z] > authorizing via signed-in user
+[debug] [2019-03-17T13:29:14.206Z] [iam] checking project firebasics-c8b4b for permissions ["firebase.projects.get"]
+[debug] [2019-03-17T13:29:14.211Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-03-17T13:29:14.212Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-03-17T13:29:15.491Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-17T13:29:15.596Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/firebasics-c8b4b:testIamPermissions  
+
+[debug] [2019-03-17T13:29:17.269Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-17T13:29:17.273Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firebasics-c8b4b  
+ 
+[debug] [2019-03-17T13:29:18.615Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\FirebaseHandsOn\HandsOn_One'...
+[info] 
+[debug] [2019-03-17T13:29:18.705Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/156889151193/clients/_:getWebAppConfig  
+ 
+[debug] [2019-03-17T13:29:19.910Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: Handson
+[info] +  hosting: Local server: http://localhost:5000

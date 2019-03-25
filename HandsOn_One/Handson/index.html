@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.8.6/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.8.6/firebase-auth.js"></script>
+    <!--<script defer src="/__/firebase/5.8.6/firebase-database.js"></script>-->
+    <script defer src="/__/firebase/5.8.6/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.8.6/firebase-storage.js"></script>
+    <script defer src="/__/firebase/5.8.6/firebase-firestore.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+  </head>
+  <body>
+   <!-- <h2 style="color:royalblue"> Welcome to Fire Base World</h2>
+    <button onclick="googleLogin()">
+    Login with Google
+</button>-->
+
+<form id="makePostsForm">
+  <input type="text" name="title" placeholder="Post Title"/>
+  <input type="text" name="to" placeholder="To"/>
+  <button>Add Post</button>
+</form>
+<ul id="posts-list"></ul>
+
+
+    <script src="app.js">
+      
+    </script>
+  </body>
+</html>
